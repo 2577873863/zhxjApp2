@@ -1,0 +1,65 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/work/infoInquire/mapDis/mapDis",
+    "pages/work/track/track",
+    "pages/personal/personal",
+    "pages/personal/personal_center",
+    "pages/personal/change_password",
+    "pages/calendar/calendar",
+    "pages/index/index",
+    "pages/work/work",
+    "pages/group/group",
+    "pages/group/group_details",
+    "pages/work/infoInquire/infoInquire",
+    "pages/work/infoInquire/eventList/eventList",
+    "pages/work/infoInquire/eventPersonList/eventPersonList"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "white",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#68747b",
+    "selectedColor": "#02baff",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "视频",
+        "iconPath": "/static/images/tabbar/exchange.png",
+        "selectedIconPath": "/static/images/tabbar/exchange.png"
+      },
+      {
+        "pagePath": "pages/work/work",
+        "text": "工作",
+        "iconPath": "/static/images/tabbar/home.png",
+        "selectedIconPath": "/static/images/tabbar/home-act.png"
+      },
+      {
+        "pagePath": "pages/group/group",
+        "text": "群组",
+        "iconPath": "/static/images/tabbar/find.png",
+        "selectedIconPath": "/static/images/tabbar/find.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "/static/images/tabbar/my.png",
+        "selectedIconPath": "static/images/tabbar/my-act.png"
+      }
+    ]
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "thApp",
+  "compilerVersion": "2.4.6",
+  "usingComponents": {}
+}

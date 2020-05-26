@@ -1,0 +1,27 @@
+.head.data-v-6c968ca4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 150rpx;
+  background-color: #39bffd;
+}
+.head .avatar.data-v-6c968ca4 {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 20rpx 0 30rpx;
+}
+.head .avatar image.data-v-6c968ca4 {
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+}
+.head .infos.data-v-6c968ca4 {
+  color: white;
+  font-size: 30rpx;
+}
+

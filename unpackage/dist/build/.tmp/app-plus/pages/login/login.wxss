@@ -1,0 +1,32 @@
+.container .login-view.data-v-0420c99a {
+  width: 500rpx;
+  height: 300rpx;
+  padding-top: 30rpx;
+  margin: 300rpx auto 0;
+  border-radius: 10rpx;
+  color: white;
+  background-color: #79c3eb;
+}
+.container .login-view .inp-view.data-v-0420c99a {
+  margin: 30rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.container .login-view .inp-view input.data-v-0420c99a {
+  padding: 5rpx 10rpx;
+  border-radius: 5rpx;
+  color: black;
+  width: 250rpx;
+  background-color: white;
+}
+.container .login-view .login-btn.data-v-0420c99a {
+  width: 200rpx;
+}
+

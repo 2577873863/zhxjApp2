@@ -1,0 +1,1 @@
+<view class="data-v-4ef77579"><view class="search-view data-v-4ef77579"><my-search vue-id="1" pickerArr="{{pickerArr}}" doSearch="{{doSearch}}" class="data-v-4ef77579" bind:__l="__l"></my-search></view><map class="map data-v-4ef77579" scale="{{18}}" markers="{{markers}}" longitude="{{longitude}}" latitude="{{latitude}}"></map></view>

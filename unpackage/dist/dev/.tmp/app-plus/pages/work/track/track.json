@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "巡更轨迹",
+  "usingComponents": {
+    "my-search": "/components/mySearch/mySearch"
+  }
+}

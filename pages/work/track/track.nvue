@@ -1,0 +1,111 @@
+<template>
+	<view>
+		<map 
+			:scale="18"
+			:style="{'width':sysInfo.windowWidth, 'height':sysInfo.windowHeight}"
+			:polyline="polyline"
+			:enable-3D="true"
+			:longitude="longitude"
+			:latitude="latitude"
+		>
+			<cover-view class="search-view">
+				<cover-view class="view">
+					<picker
+						@change="bindPickerChange" 
+						:value="pickerIndex" 
+						:range="pickerArr"
+						range-key="value"
+					>
+						<cover-view class="input">
+							选择查看天数：{{pickerArr[pickerIndex].value}}
+						</cover-view>
+					</picker>
+				</cover-view>
+			</cover-view>
+		</map>
+	</view>
+</template>
+
+<script>
+	import { getjwd } from '@/common/common.js'
+	import { apiFindGpsTrack } from '@/common/api.js';
+	import mySearch from '@/components/mySearch/mySearch.vue';
+	export default {
+		onLoad() {
+			let { windowWidth, windowHeight } = uni.getSystemInfoSync();
+			this.sysInfo = {
+				windowWidth, windowHeight
+			}
+			this.getTrackList();
+		},
+		data() {
+			return {
+				sysInfo:{},
+				latitude:'', //当前维度
+				longitude:'',//当前经度
+				res_list:[],
+				polyline:[],
+				pickerArr:[
+					{ id:1, value:'一天' },
+					{ id:2, value:'两天' },
+					{ id:3, value:'三天' },
+					{ id:4, value:'四天' },
+					{ id:5, value:'五天' },
+					{ id:6, value:'六天' },
+					{ id:7, value:'七天' }
+				],
+				pickerIndex:0
+			}
+		},
+		methods: {
+			async getTrackList(counts=1){
+				const res = await apiFindGpsTrack({
+					sysName:uni.getStorageSync('sysname'),
+					counts,
+				});
+				this.res_list = res.data.data;
+				// console.log('keys=>',Object.values(res.data.data[0]))
+				// console.log('list====>',res.data.data);
+				let points = getjwd(res.data.data[0]['0']);
+				
+				this.polyline = [{
+					points:points,
+					color:'#0000AA',
+					width:8
+				}];
+				console.log(points);
+				this.longitude = points[0].longitude;
+				this.latitude = points[0].latitude;
+				console.log(this.latitude,this.longitude);
+			},
+			bindPickerChange(e){
+				this.pickerIndex = e.detail.value;
+				this.getTrackList(this.pickerArr[this.pickerIndex].id);
+			}
+		},
+		components:{
+			mySearch
+		}
+	}
+</script>
+
+<style lang="less" scoped>
+@searhHeight:100rpx;
+.search-view{
+	margin-top:15rpx;
+	width:750rpx;
+	height:@searhHeight;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	// background-color: white;
+}
+.view{
+	width:550rpx;
+	height:@searhHeight;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	border-radius: @searhHeight / 2;
+}
+</style>

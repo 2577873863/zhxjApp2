@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "历史巡更人",
+  "usingComponents": {
+    "my-search": "/components/mySearch/mySearch"
+  }
+}

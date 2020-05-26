@@ -1,0 +1,14 @@
+.search-view.data-v-4ef77579 {
+  height: 70rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.map.data-v-4ef77579 {
+  width: 100vw;
+  height: calc(100vh - 100rpx);
+}
+

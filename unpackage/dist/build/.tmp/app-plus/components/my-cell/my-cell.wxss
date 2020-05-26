@@ -1,0 +1,27 @@
+.cell-container.data-v-55826750 {
+  padding: 0 20rpx;
+  height: 75rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px solid #f1f1f1;
+}
+.cell-container .icon.data-v-55826750 {
+  width: 25rpx;
+  height: 25rpx;
+  margin-right: 20rpx;
+}
+.cell-container .title.data-v-55826750 {
+  font-size: 30rpx;
+}
+.cell-container .more-text.data-v-55826750 {
+  font-size: 30rpx;
+  margin-right: 20rpx;
+}
+

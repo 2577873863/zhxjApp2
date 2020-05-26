@@ -1,0 +1,76 @@
+.group_con .group_input.data-v-2295f9ad {
+  background: #F5F5F5;
+  color: #666;
+  font-size: 30rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  height: 60rpx;
+  border-radius: 100rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 64rpx;
+}
+.group_con .group_input image.data-v-2295f9ad {
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 14rpx;
+}
+.group_con .group_input input.data-v-2295f9ad {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.group_con .group.data-v-2295f9ad:nth-child(2) {
+  margin: 20rpx 0 16rpx;
+}
+.group_con .group .title.data-v-2295f9ad {
+  padding: 0 20rpx;
+  font-size: 34rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 76rpx;
+  color: #666;
+}
+.group_con .group .title.data-v-2295f9ad:active {
+  background: #f7f7f7;
+}
+.group_con .group .title .active.data-v-2295f9ad {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.group_con .group_list > view.data-v-2295f9ad {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 26rpx 0;
+  border-bottom: 1px solid #eee;
+  padding-left: 36rpx;
+}
+.group_con .group_list > view.data-v-2295f9ad:active {
+  background: #f7f7f7;
+}
+.group_con .group_list > view .avatar.data-v-2295f9ad {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 16rpx;
+}
+.group_con .group_list > view .name.data-v-2295f9ad {
+  font-size: 34rpx;
+  color: #666;
+}
+

@@ -1,0 +1,29 @@
+page.data-v-d3d958d2 {
+  background: #fbf8fb;
+}
+.personal_center.data-v-d3d958d2 {
+  padding-top: 30rpx;
+}
+.personal_list.data-v-d3d958d2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 26rpx 20rpx;
+  background: #fff;
+  border-bottom: 1px solid #fbf8fb;
+}
+.personal_list .personal_left.data-v-d3d958d2 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 36rpx;
+  color: #333;
+}
+.personal_list .personal_right.data-v-d3d958d2 {
+  color: #888;
+  font-size: 30rpx;
+}
+

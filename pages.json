@@ -1,0 +1,157 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path":"pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path" : "pages/work/infoInquire/mapDis/mapDis",
+			"style" : {
+				"navigationBarTitleText":"历史巡更地图分布"
+			}
+		},
+		{
+			"path" : "pages/work/track/track",
+			"style" : {
+				"navigationBarTitleText":"巡更轨迹"
+			}
+		},
+		{
+			"path" : "pages/personal/personal",
+			"style" : {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path" : "pages/personal/personal_center",
+			"style" : {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path" : "pages/work/information/index",
+			"style" : {
+				"navigationBarTitleText":"信息上报"
+			}
+		},
+		{
+			"path" : "pages/personal/change_password",
+			"style" : {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path" : "pages/calendar/calendar",
+			"style" : {
+				"navigationBarTitleText": "签到"
+			}
+		},
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "视频"
+			}
+		},
+		{
+			"path" : "pages/work/work",
+			"style" : {
+				"navigationBarTitleText": "工作"
+			}
+		},
+		{
+			"path" : "pages/group/group",
+			"style" : {
+				"navigationBarTitleText":"群组"
+			}
+		},
+		{
+			"path" : "pages/group/group_details",
+			"style" : {
+				"navigationBarTitleText":"个人详情"
+			}
+		},
+		{
+			"path" : "pages/work/infoInquire/infoInquire",
+			"style" : {
+				"navigationBarTitleText":"信息查询"
+			}
+		},
+		{
+			"path" : "pages/work/infoInquire/eventList/eventList",
+			"style" : {
+				"navigationBarTitleText":"历史巡更事件"
+			}
+		},
+		{
+			"path" : "pages/work/infoInquire/eventPersonList/eventPersonList",
+			"style" : {
+				"navigationBarTitleText":"历史巡更人"
+			}
+		},
+		{
+			"path" : "pages/work/infoInquire/historicalcontent/historicalcontent",
+			"style" : {
+				"navigationBarTitleText":"巡更详情"
+			}
+		},
+		{
+			"path" : "pages/work/checkIn/checkIn",
+			"style" : {
+				"navigationBarTitleText":"打卡签到"
+			}
+		},
+		{
+			"path" : "pages/work/scout/scout",
+			"style" : {
+				"navigationBarTitleText":"事件跟踪"
+			}
+		},
+		{
+					"path" : "pages/work/findCard/find_card",
+					"style" : {
+						"navigationBarTitleText":"车辆查询"
+					}
+				}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "white",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#68747b",
+		"selectedColor": "#02baff",
+		"borderStyle": "white",
+		"backgroundColor": "#FFFFFF",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "视频",
+				"iconPath":"/static/images/tabbar/exchange.png",
+				"selectedIconPath":"/static/images/tabbar/exchange.png"
+			}, 
+			{
+				"pagePath": "pages/work/work",
+				"text": "工作",
+				"iconPath":"/static/images/tabbar/home.png",
+				"selectedIconPath":"/static/images/tabbar/home-act.png"
+			},
+			{
+				"pagePath": "pages/group/group",
+				"text": "群组",
+				"iconPath":"/static/images/tabbar/find.png",
+				"selectedIconPath":"/static/images/tabbar/find.png"
+			},
+			{
+				"pagePath": "pages/personal/personal",
+				"text": "我的",
+				"iconPath":"/static/images/tabbar/my.png",
+				"selectedIconPath":"static/images/tabbar/my-act.png"
+			}
+		]
+	}
+}
